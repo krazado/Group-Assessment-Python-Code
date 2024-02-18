@@ -26,3 +26,4 @@ Due to the significant correlation observed between Staff Quality (STA) and Mana
 ## Step 4 : After excluding the COM variable, we observe that the model is a good fit. However, we cannot stop here; we must examine if there is a non-linear relationship
    ![alt text](resources/com_variable_non_linearscatter.png)
 
+   Upon eyeballing the scatter plots, it becomes evident that there is no discernible relationship between the target and independent variables. Thus, we can conclude that the variable COM (competitors per kilometer) does not influence revenue generation.
