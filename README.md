@@ -17,4 +17,4 @@ Due to the significant correlation observed between Staff Quality (STA) and Mana
 ## Step 2 : We exlude SAT From Independent Variables And Run multi Linear Regression Analysis
    ![alt text](resources/linear_regression_step2.png)
    
-   Even if there's a strong relationship between the dependent variable (REV) and an independent variable (MAN), it's crucial to assess for multicollinearity, which occurs when independent variables are highly correlated with each other. This can inflate standard errors and make coefficient estimates unstable, this is exactly what we see here.
+   Even if there's a strong relationship between the dependent variable (REV) and an independent variable (MAN), it's crucial to assess for multicollinearity, which occurs when independent variables are highly correlated with each other. This can inflate standard errors and make coefficient estimates unstable, this is exactly what we see here.![alt text](image.png)
