@@ -9,8 +9,12 @@ Due to the significant correlation observed between Staff Quality (STA) and Mana
 ## Step 0 : We run correlation Analysis
    ![alt text](resources/correlation_matrix.png)
    
-   From this matrix, it is clear that we have a very strong correlation between MAN and STA, which can be a significant problem in our multiple linear regression. However, we still apply it to observe that assumption
+   From this matrix, it is clear that we have a very strong correlation between MAN and STA, which can be a significant problem in our multiple linear regression. However, we still apply it to observe that assumption.
 ## Step 1 : We run multi Linear Regression Analysis
    ![alt text](resources/linear_regression_step1.png)
     
-   After eyeballing the results, it is clear that the p-values for MAN and SAT are out of control, meaning that this regression model is not what we are looking for
+   After eyeballing the results, it is clear that the p-values for MAN and SAT are out of control, meaning that this regression model is not what we are looking for.
+## Step 2 : We exlude SAT From Independent Variables And Run multi Linear Regression Analysis
+   ![alt text](resources/linear_regression_step2.png)
+   
+   Even if there's a strong relationship between the dependent variable (REV) and an independent variable (MAN), it's crucial to assess for multicollinearity, which occurs when independent variables are highly correlated with each other. This can inflate standard errors and make coefficient estimates unstable, this is exactly what we see here.
