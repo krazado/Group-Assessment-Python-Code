@@ -5,6 +5,6 @@ Companion's Breweries faces a pivotal decision on expanding its operations. This
 ## Methodology
 Due to the significant correlation observed between Staff Quality (STA) and Management Quality (MAN), and the strong fit of the MAN variable within the model, it was deemed appropriate to exclude the STA variable from subsequent analysis to prevent multicollinearity issues. Regarding the Competition (COM) variable, various non-linear models including X^2, Log(x), and 1/X were initially tested to explore potential relationships. However, despite these efforts, no clear pattern or relationship between COM and Revenue (REV) was discerned from the data.
 
-## Step-by-Step Analysis Process: Evaluating Variables and Model Fit in Linear Regression
- # Step 0 : We run correlation Analysis
+# Step-by-Step Analysis Process: Evaluating Variables and Model Fit in Linear Regression
+    ## Step 0 : We run correlation Analysis
    ![alt text](resources/correlation_matrix.png)
