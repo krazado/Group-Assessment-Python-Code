@@ -11,4 +11,6 @@ Due to the significant correlation observed between Staff Quality (STA) and Mana
    
    From this matrix, it is clear that we have a very strong correlation between MAN and STA, which can be a significant problem in our multiple linear regression. However, we still apply it to observe that assumption
 ## Step 1 : We run multi Linear Regression Analysis
-   ![alt text](resources/linear_regression_step1.png.png)
+   ![alt text](resources/linear_regression_step1.png)
+    
+    After eyeballing the results, it is clear that the p-values for MAN and SAT are out of control, meaning that this regression model is not what we are looking for
