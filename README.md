@@ -33,6 +33,13 @@ The recommendations will be based on a thorough analysis of the current market l
 ## Step 5: 
    Final regerssion equation:
  **Revenue = 4.3976 + (1.5998×MAN) − (0.4364×INCOME) + (1.0901×TYP)**
+ Based on the second regression analysis, we derive the following predictive function for revenue: 
+ 
+ This equation defines how revenue is influenced by the variables of management quality (MAN), the area's income level (INCOME), and the type of establishment (TYP). The coefficients suggest how much the revenue is expected to change with a one-unit change in the predictor variables, assuming all other variables remain constant. Specifically, an improvement in management quality or a more favourable type of establishment is associated with an increase in revenue, whereas higher income levels in the surrounding area show a negative association.  
+
+ Using the regression function, we calculated 95% confidence intervals (adding to the previous showed function -/+ 2 Standard Error) for projected revenues at varying levels of management quality (MAN) for the two potential sites. These intervals provide a range of expected revenues, accounting for the uncertainty in the estimates. For Site A, as the quality of management increases, the lower and upper bounds of the confidence intervals also increase, indicating higher expected revenues. Site B shows a similar trend, but with different
+
+ ![alt text](resources/plugin_values_inequation_step5.png)
 
 # Conclusion & Recommendations  
 This report presents a detailed analysis of two potential sites for Companion's Breweries' expansion, offering a quantitative and qualitative assessment to guide the decision-making process. Site A, with its convenient location in a lower income area, lower competition, and established operation, represents a safer investment with room for growth through strategic enhancements. Conversely, Site B, despite its more challenging location that comports an overall lower demand for a pub-type establishment, could have an easier way in finding higher level management then Site A, in which case the potential revenue might be higher for that establishment. 
