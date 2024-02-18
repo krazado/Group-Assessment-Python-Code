@@ -13,13 +13,16 @@ Due to the significant correlation observed between Staff Quality (STA) and Mana
 ## Step 1 : We run multi Linear Regression Analysis
    ![alt text](resources/linear_regression_step1.png)
     
-   After eyeballing the results, it is clear that the p-values for MAN and SAT are out of control, meaning that this regression model is not what we are looking for.
+   After eyeballing the results, it is clear that the p-values for COM and SAT are out of control, meaning that this regression model is not what we are looking for.
 ## Step 2 : We exlude SAT From Independent Variables And Run multi Linear Regression Analysis
    ![alt text](resources/linear_regression_step2.png)
    
    Even if there's a strong relationship between the dependent variable (REV) and an independent variable (MAN), it's crucial to assess for multicollinearity, which occurs when independent variables are highly correlated with each other. This can inflate standard errors and make coefficient estimates unstable, this is not a case here!
-   Instead what we see is that COM is still destorying model.
+   Instead what we see is that COM is still destorying model, since we see that there is almost no correlation to the target variable, we will exclude it from the model.
 ## Step 3 : We exlude COM From Independent Variables And Run multi Linear Regression Analysis   
    ![alt text](resources/linear_regression_step3.png)
    
    Finally, we have obtained a model that appears quite satisfactory, with an Adjusted R-squared value of 95% and statistically significant p-values
+## Step 4 : After excluding the COM variable, we observe that the model is a good fit. However, we cannot stop here; we must examine if there is a non-linear relationship
+   ![alt text](resources/com_variable_non_linearscatter.png)
+
