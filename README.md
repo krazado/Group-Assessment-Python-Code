@@ -28,6 +28,12 @@ The recommendations will be based on a thorough analysis of the current market l
 
    Upon eyeballing the scatter plots, it becomes evident that there is no discernible relationship between the target and independent variables. Thus, we can conclude that the variable COM (competitors per kilometer) does not influence revenue generation.
 
+   But even though we applied linear regression to each of those variables, there was no significant relationship found.
+
+## Step 5: 
+   Final regerssion equation:
+   **Revenue = 4.3976 + (1.5998×MAN) − (0.4364×INCOME) + (1.0901×TYP) **
+
 # Conclusion & Recommendations  
 This report presents a detailed analysis of two potential sites for Companion's Breweries' expansion, offering a quantitative and qualitative assessment to guide the decision-making process. Site A, with its convenient location in a lower income area, lower competition, and established operation, represents a safer investment with room for growth through strategic enhancements. Conversely, Site B, despite its more challenging location that comports an overall lower demand for a pub-type establishment, could have an easier way in finding higher level management then Site A, in which case the potential revenue might be higher for that establishment. 
 
