@@ -17,7 +17,7 @@ The recommendations will be based on a thorough analysis of the current market l
 ## Step 2 : We exlude SAT From Independent Variables And Run multi Linear Regression Analysis
    ![alt text](resources/linear_regression_step2.png)
    
-   Even if there's a strong relationship between the dependent variable (REV) and an independent variable (MAN), it's crucial to assess for multicollinearity, which occurs when independent variables are highly correlated with each other. This can inflate standard errors and make coefficient estimates unstable, this is not a case here!
+   It's crucial to assess for multicollinearity, which occurs when independent variables are highly correlated with each other. This can inflate standard errors and make coefficient estimates unstable, this is not a case here!
    Instead what we see is that COM is still destorying model, since we see that there is almost no correlation to the target variable, we will exclude it from the model.
 ## Step 3 : We exlude COM From Independent Variables And Run multi Linear Regression Analysis   
    ![alt text](resources/linear_regression_step3.png)
