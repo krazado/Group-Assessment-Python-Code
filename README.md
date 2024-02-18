@@ -1,9 +1,9 @@
-## Executive summary/ abstract 
-Companion's Breweries must choose between acquiring Site A, a countryside family pub, or Site B, a disused inner-city church, to expand its pub network. A regression model, using data from 47 existing pubs, predicts revenue based on factors like Management Quality, Staff Quality, Interior Type, Regional Income, and Competition Density. Site A's projected revenue ranges from £7.12 to £10.64 million, while Site B's range is £2.02 to £5.55 million. Despite Site B's potential for premium pricing and long-term growth, Site A is recommended for its safer investment profile, established operation, and loyal staff. Further due diligence on Site A's repair costs and revenue potential is advised, while Site B may be suitable for a longer-term, ambitious project.
-## Intruduction 
-Companion's Breweries faces a pivotal decision on expanding its operations. This report evaluates two prospective sites, leveraging data from 47 existing pubs, to inform investment decisions. Site A, a profitable countryside pub, and Site B, a unique inner-city church conversion, present distinct opportunities and challenges. Recommendations will consider market dynamics, strategic goals, and revenue/cost analysis. Our goal is to equip Companion's Breweries with actionable insights for informed decision-making.
-## Methodology
-Due to the significant correlation observed between Staff Quality (STA) and Management Quality (MAN), and the strong fit of the MAN variable within the model, it was deemed appropriate to exclude the STA variable from subsequent analysis to prevent multicollinearity issues. Regarding the Competition (COM) variable, various non-linear models including X^2, Log(x), and 1/X were initially tested to explore potential relationships. However, despite these efforts, no clear pattern or relationship between COM and Revenue (REV) was discerned from the data.
+# Intruduction 
+Companion's Breweries, a renowned entity in the UK brewing industry, is facing a strategic decision regarding the expansion of its operations. In line with the company's goal to extend its reach and enhance its market position, this report aims to evaluate the viability of acquiring and developing two potential new sites. Our analysis will assess the operational data of 47 existing pubs within Companion's Breweries' network to inform the decision-making process for these prospective investments. 
+
+The first site under consideration is an old, family-owned pub located in the countryside, known for its profitability and the loyalty of its staff and patrons. The second is an unconventional opportunity to repurpose a disused inner-city church into a modern pub, an idea that has sparked much enthusiasm in our marketing department. Each site presents a unique set of opportunities and challenges, from varying levels of competition to distinct demographic profiles, which will be rigorously examined in this report. 
+
+The recommendations will be based on a thorough analysis of the current market landscape, the company's strategic objectives, and a detailed examination of revenue and cost determinants for the existing pubs. Through this report, we aim to provide a robust foundation upon which Companion's Breweries can make an informed decision regarding these potential new ventures.
 
 # Step-by-Step Analysis Process: Evaluating Variables and Model Fit in Linear Regression
 ## Step 0 : We run correlation Analysis
@@ -27,3 +27,10 @@ Due to the significant correlation observed between Staff Quality (STA) and Mana
    ![alt text](resources/com_variable_non_linearscatter.png)
 
    Upon eyeballing the scatter plots, it becomes evident that there is no discernible relationship between the target and independent variables. Thus, we can conclude that the variable COM (competitors per kilometer) does not influence revenue generation.
+
+# Conclusion & Recommendations  
+This report presents a detailed analysis of two potential sites for Companion's Breweries' expansion, offering a quantitative and qualitative assessment to guide the decision-making process. Site A, with its convenient location in a lower income area, lower competition, and established operation, represents a safer investment with room for growth through strategic enhancements. Conversely, Site B, despite its more challenging location that comports an overall lower demand for a pub-type establishment, could have an easier way in finding higher level management then Site A, in which case the potential revenue might be higher for that establishment. 
+
+Recommendation: We advise prioritizing Site A due to its higher revenue related to the positioning. However, Site B should not be disregarded, a minimal research on what level of management it is possible to find in the area should be done, especially because higher competition often attracts highly specialized managers as well 
+
+Site A is the best choice because of its location, every other variable being equal; in case it is possible to find in site B a manager of at least 3 levels of quality higher than the one in site A, it will become more profitable an investment in Site B. 
