@@ -20,6 +20,6 @@ Due to the significant correlation observed between Staff Quality (STA) and Mana
    Even if there's a strong relationship between the dependent variable (REV) and an independent variable (MAN), it's crucial to assess for multicollinearity, which occurs when independent variables are highly correlated with each other. This can inflate standard errors and make coefficient estimates unstable, this is not a case here!
    Instead what we see is that COM is still destorying model.
 ## Step 3 : We exlude COM From Independent Variables And Run multi Linear Regression Analysis   
-   ![alt text](resources/linear_regression_step2.png)
+   ![alt text](resources/linear_regression_step3.png)
    
    Finally, we have obtained a model that appears quite satisfactory, with an Adjusted R-squared value of 95% and statistically significant p-values
